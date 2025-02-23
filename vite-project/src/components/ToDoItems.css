@@ -1,0 +1,57 @@
+
+.add_edit_Input {
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 60% 10%;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.add_edit_Items {
+    min-height: 50px;
+    height: 50px;
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 10px;
+    border-color: darkgrey;
+    font-size: 20px;
+    padding: 10px 10px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.add_edit_Items::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: black;
+}
+
+.add_edit_Items::-webkit-scrollbar {
+    width: 10px;
+    cursor: pointer;
+}
+
+.add_edit_Items::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.add_edit_Items:focus {
+    outline: none;
+}
+
+.add_edit_Button {
+    border-radius: 10px;
+    border-color: black;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.add_edit_Button:hover {
+    background-color: lightgreen;
+    color: white;
+}
+
+
